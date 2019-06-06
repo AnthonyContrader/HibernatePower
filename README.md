@@ -1,0 +1,2 @@
+# HibernatePower
+Hibernate for examples
