@@ -1,2 +1,1 @@
-# HibernatePower
-Hibernate for examples
+# DORSE
