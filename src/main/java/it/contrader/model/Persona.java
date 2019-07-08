@@ -1,27 +1,26 @@
 package it.contrader.model;
 
 import javax.persistence.Column;
-import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
+//@Entity
+//@Inheritance(strategy =InheritanceType.TABLE_PER_CLASS)
 @MappedSuperclass
-public abstract class Persona {
+public class Persona {
 	
 	@Id
-	@Column(name = "id")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 	
-	@Column(name = "nome")
+	@Column(name="nome")
 	private String nome;
 	
 	@Column(name = "cognome")
@@ -29,6 +28,4 @@ public abstract class Persona {
 	
 	@Column(name = "indirizzo")
 	private String indirizzo;
-	
-	
 }

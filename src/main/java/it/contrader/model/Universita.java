@@ -21,6 +21,5 @@ public class Universita {
 	private Integer id;
 	
 	@Column (name = "nome")
-	private String nome;
-	
+	private String nome;	
 }

@@ -26,10 +26,8 @@
 	</properties>
 
 	<dependencies>
-
 		<!-- <dependency> <groupId>com.google.code.gson</groupId> <artifactId>gson</artifactId> 
 			<version>2.8.0</version> </dependency> -->
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -90,7 +88,7 @@
 			<groupId>org.apache.tomcat.embed</groupId>
 			<artifactId>tomcat-embed-jasper</artifactId>
 		</dependency>
-
+        
 		<!-- https://mvnrepository.com/artifact/jstl/jstl -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
